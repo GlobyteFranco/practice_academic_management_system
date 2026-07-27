@@ -1,16 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
-
+import { useState } from "react";
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import Login from "./pages/Login";
+import Index from "./pages";
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-    </>
-  )
+    <Routes>
+      <Route path="/" element={<Login></Login>}></Route>
+      <Route path="/index" element={<Index></Index>}></Route>
+      <Route path="*" element={<h1>Not Found</h1>}></Route>
+    </Routes>
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,28 @@
+.smallTag {
+  display: block;
+}
+.binomialTags {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.submitButton {
+  display: flex;
+  align-items: center;
+  transition: 300ms;
+}
+.form {
+  background-color: rgb(4, 28, 28);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.submitButton:hover {
+  transform: scale(1.3);
+}
+.alert {
+  background-color: red;
+    
+}
