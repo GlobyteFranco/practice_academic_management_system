@@ -1,12 +1,19 @@
-.layout{
-    display: grid;
-  
-  grid-template-columns:  1fr 1fr 1fr;
-  
-  grid-template-rows: 1fr 1fr 1fr;
-  
-  gap: 16px;height: 100vh;
-}
-.centeredLayout{
+.layout {
+  display: grid;
 
+  grid-template-columns: 1fr 1fr 1fr;
+
+  grid-template-rows: 1fr 1fr 1fr;
+
+  gap: 16px;
+  height: 100vh;
 }
+.centeredTitle {
+  grid-column: 1;
+  grid-row: 2;
+}
+.endSessionButton{
+  grid-column: 3;
+  grid-row: 1;
+}
+

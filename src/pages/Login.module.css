@@ -1,12 +1,14 @@
-.layout{
-    display: grid;
-  
-  grid-template-columns:  1fr 1fr 1fr;
-  
-  grid-template-rows: 1fr 1fr 1fr;
-  
-  gap: 16px;height: 100vh;
-}
-.centeredLayout{
+.layout {
+  display: grid;
 
+  grid-template-columns: 1fr 1fr 1fr;
+
+  grid-template-rows: 1fr 1fr 1fr;
+
+  gap: 16px;
+  height: 100vh;
+}
+.centeredContent {
+  grid-column: 2;
+  grid-row: 2;
 }

@@ -14,11 +14,11 @@ const Login = () => {
   }, []);
   return (
     <div className={styles.layout}>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <FormComponent onSubmitSuccess={() => navigate("/index")}></FormComponent>
+      <div className={styles.centeredContent}>
+        <FormComponent
+          onSubmitSuccess={() => navigate("/index")}
+        ></FormComponent>
+      </div>
     </div>
   );
 };
